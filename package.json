@@ -1,0 +1,33 @@
+{
+  "name": "ax-test-social",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test 'test/unit/*.test.js' 'test/integration/*.test.js' 'test/scenarios/*.test.js'",
+    "test:unit": "node --test 'test/unit/*.test.js'",
+    "test:integration": "node --test 'test/integration/*.test.js'",
+    "test:scenarios": "node --test 'test/scenarios/*.test.js'",
+    "lint": "echo 'No linter configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shootdaj/ax-test-social.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shootdaj/ax-test-social/issues"
+  },
+  "homepage": "https://github.com/shootdaj/ax-test-social#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
